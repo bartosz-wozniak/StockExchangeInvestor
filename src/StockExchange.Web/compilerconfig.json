@@ -1,0 +1,17 @@
+﻿[
+  {
+    "outputFile": "Content/css/dataTableFix.css",
+    "inputFile": "Content/css/dataTableFix.less",
+    "includeInProject": true
+  },
+  {
+    "outputFile": "Content/css/main.css",
+    "inputFile": "Content/css/main.less",
+    "includeInProject": true
+  },
+  {
+    "outputFile": "Content/css/charts.css",
+    "inputFile": "Content/css/charts.less",
+    "includeInProject": true
+  }
+]

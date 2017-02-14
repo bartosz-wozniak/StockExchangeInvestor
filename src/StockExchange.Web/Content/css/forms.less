@@ -1,0 +1,158 @@
+﻿@import "colors.less";
+@import "variables.less";
+
+.icheckbox_flat, .iradio_flat {
+    background-image: url("../../bower_components/Bootflat/bootflat/img/check_flat/default.png");
+    height: 25px;
+}
+
+.glyphicon-ok.form-control-feedback {
+    color: @green;
+}
+
+.has-error .form-control-feedback {
+    color: @red;
+}
+
+.form-control {
+  border-radius: @input-radius;
+  box-shadow: none;
+  border-color: @gray;
+  &:focus {
+    border-color: @light-blue;
+    box-shadow: none;
+  }
+  &::-moz-placeholder,
+  &:-ms-input-placeholder,
+  &::-webkit-input-placeholder {
+    color: #bbb;
+    opacity: 1;
+  }
+
+  &:not(select) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+.form-group {
+    .help-block {
+        color: @red;
+    }
+
+  &.has-success {
+    label {
+      color: @green;
+    }
+    .form-control,
+    .input-group-addon {
+      border-color: @green;
+      box-shadow: none;
+    }
+    .help-block {
+      color: @green;
+    }
+  }
+
+  &.has-warning {
+    label {
+      color: @yellow;
+    }
+    .form-control,
+    .input-group-addon {
+      border-color: @yellow;
+      box-shadow: none;
+    }
+    .help-block {
+      color: @yellow;
+    }
+  }
+
+  &.has-error {
+    label {
+      color: @red;
+    }
+    .form-control,
+    .input-group-addon {
+      border-color: @red;
+      box-shadow: none;
+    }
+    .help-block {
+      color: @red;
+    }
+  }
+
+  legend {
+      font-size: 16px;
+
+      a {
+          font-size: 12px;
+          margin-left: 5px;
+      }
+  }
+
+  .checkbox-multiline {
+    .icheckbox_flat {
+        vertical-align: top;
+    }
+
+    label {
+        width: 90%;
+        text-align: left;
+        padding-top: 0;
+    }
+  }
+}
+
+.input-group {
+  .input-group-addon {
+      border-radius: @input-radius;
+      border-color: @gray;
+      background-color: white;
+      padding: 5px 10px;
+      i {
+          color: @light-blue;
+          font-size: 18px;
+          width: 18px;
+      }
+  }
+}
+
+.btn {
+    border-radius: @input-radius;
+}
+
+.select2-container--default {
+    .select2-selection--multiple {
+        border-radius: @input-radius;
+    }
+
+    .select2-selection--single {
+        height: 34px !important;
+        border-radius: @input-radius;
+        border: 1px solid rgb(210, 214, 222);
+
+        .select2-selection__rendered {
+            line-height: 32px !important;
+        }
+        .select2-selection__choice {
+            line-height: 20px !important;
+        }
+        select2-search__field {
+            padding-right: 5px;
+        }
+    }
+}
+
+.radio-label {
+    margin-right: 8px;
+}
+
+.datepicker {
+    background-color: white;
+}
+
+.select2-container--default .select2-results__option[aria-disabled=true] {
+    display: none;
+}
