@@ -9,6 +9,8 @@ strategy and a module designed to manage an investment wallet. The analysis of s
 results has been made to investigate whether using only technical indicators can be an effective
 method of investment strategy planning.
 
+Website is deployed to Azure: https://ministockexchange.azurewebsites.net/
+
 ## Purpose
 
 This project was developed as my B.Sc. Thesis. It was a group project and it allowed me to get more practice in creating ASP.NET MVC applications.
