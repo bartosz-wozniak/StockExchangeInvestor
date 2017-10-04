@@ -8,7 +8,7 @@ strategy and a module designed to manage an investment wallet. The analysis of s
 results has been made to investigate whether using only technical indicators can be an effective
 method of investment strategy planning.
 
-This is ASP .NET MVC app with Entity Framework and MS SQL Server. Also Autofac was used for dependency injection, log4net for logging and dbup for migrations. Bootstrap UI was used in front-end. Also a job was created to sync data from GPW. 
+This is ASP .NET MVC app with Entity Framework and MS SQL Server. Also Autofac was used for dependency injection, log4net for logging and DbUp for migrations. Bootstrap UI was used in front-end. Front-end libraries were installed with bower. Also a job was created to sync data from GPW. Except SQL database, cahce was used to make application load much faster. 
 
 Website is deployed to Azure: https://ministockexchange.azurewebsites.net/
 
